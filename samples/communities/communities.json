@@ -7,7 +7,7 @@
           "communities/communitiesCustomization.js"
         ],
 	"include-repo":{
-	  "name": "global-samples"
+	  "name": "communities-groups"
 	}
       },
       "name": "Communities Customization Extension",
