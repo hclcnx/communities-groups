@@ -4,10 +4,10 @@
       "application": "Communities Customization",
       "payload": {
         "include-files": [
-          "communities/communitiesCustomization.css"
+          "samples/communities/communitiesCustomization.js"
         ],
 	"include-repo":{
-	  "name": "global-samples"
+	  "name": "communities-groups"
 	}
       },
       "name": "Communities Customization Extension",
