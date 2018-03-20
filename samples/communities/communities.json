@@ -1,0 +1,24 @@
+{
+  "extensions": [
+    {
+      "application": "Communities Customization",
+      "payload": {
+        "include-files": [
+          "communities/communitiesCustomization.css"
+        ],
+	"include-repo":{
+	  "name": "global-samples"
+	}
+      },
+      "name": "Communities Customization Extension",
+      "type": "com.ibm.customizer.ui",
+	  "path": "communities"
+    }
+  ],
+  "name": "Communities Customization",
+  "description": "Add group management into communities",
+  "title": "Communities Customization",
+  "services": [
+    "Customizer"
+  ]
+}
