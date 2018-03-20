@@ -4,7 +4,7 @@
       "application": "Communities Customization",
       "payload": {
         "include-files": [
-          "communities/communitiesCustomization.js"
+          "samples/communities/communitiesCustomization.js"
         ],
 	"include-repo":{
 	  "name": "communities-groups"
