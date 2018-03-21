@@ -5,6 +5,8 @@
 // @date February, 2017
 //
 if(typeof(dojo) != "undefined") {
+	console.log("Begin code communities customization.");
+	console.log("Will modify the DOM");
     var addGroups = '<tr class="lotusFormFieldRow"> '+
 						'<td width="130px" class="lotusFormLabel" style="padding-top: 10px;">Groupes :</td>' +
 						'<td>' +
@@ -16,6 +18,8 @@ if(typeof(dojo) != "undefined") {
 						'</td>' +
 						'<td width="50px" class="lotusFormLabel"/>' +
 					'</tr>';
-	
-	dojo.place(addGroups,	dojo.query("#addAllParentMembersRow")[0],"before")
+	if (dojo.query("#addAllParentMembersRow") && dojo.query("#addAllParentMembersRow")[0]) {
+		dojo.place(addGroups,	dojo.query("#addAllParentMembersRow")[0],"before")
+	}
+	console("End code communities customization.")
 }
