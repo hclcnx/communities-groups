@@ -2,11 +2,11 @@
   "extensions": [
     {
       "path": "communities",
-	  "match": {
-		"url": "fullpageWidgetId=Members"
-	  },
       "application": "Communities Customization",
       "payload": {
+	  "match": {
+		"url": "fullpageWidgetId=Members"
+		},
         "include-files": [
           "samples/communities/communitiesCustomization.js"
         ],
