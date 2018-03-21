@@ -10,9 +10,15 @@
         "include-files": [
           "samples/communities/communitiesCustomization.js"
         ],
+<<<<<<< HEAD
         "include-repo": {
           "name": "communities-groups"
         }
+=======
+	"include-repo":{
+	  "name": "communities-groups"
+	}
+>>>>>>> 24597e032a1c1d7c29ad4f198761798d056e7e92
       },
       "name": "Communities Customization Extension",
       "type": "com.ibm.customizer.ui"
