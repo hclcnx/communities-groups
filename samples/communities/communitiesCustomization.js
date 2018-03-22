@@ -27,6 +27,6 @@ if(typeof(dojo) != "undefined") {
 	}
 	
 	require(["dojo/aspect","dojo/domReady!"], function(aspect) { 
-		aspect.after(_Members_iContext.iScope(),"displayMemberCreateForm", addGroupsLink(), true) 
+		aspect.after(this,"displayMemberCreateForm", addGroupsLink(), true) 
 	});
 }
